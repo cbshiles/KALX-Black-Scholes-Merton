@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bibliography>
+  <reference name="BlaSch1973">
+    <title>The Pricing of Options and Corporate Liabilities</title>
+    <author>Black, Fischer and Myron Scholes</author>
+    <publisher>The University of Chicago Press</publisher>
+    <link>http://kalx.net/papers/BlaSch1973.pdf</link>
+    <!-- 
+    journal = {The Journal of Political Economy},
+    volume = {81},
+    number = {3},
+    pages = {637--654},
+    url = {http://www.jstor.org/stable/1831029},
+    ISSN = {00223808},
+    abstract = {If options are correctly priced in the market, it should not be
+possible to make sure profits by creating portfolios of long and short position
+ in options and their underlying stocks. Using this principle, a theoretical va
+uation formula for options is derived. Since almost all corporate liabilities c
+n be viewed as combinations of options, the formula and the analysis that led t
+ it are also applicable to corporate liabilities such as common stock, corporat
+ bonds, and warrants. In particular, the formula can be used to derive the disc
+unt that should be applied to a corporate bond because of the possibility of de
+ault.},
+    year = {1973},
+    publisher = {The University of Chicago Press},
+    -->
+  </reference>
+  <reference name="Mer1973">
+    <title>Theory of Rational Option Pricing</title>
+    <author>Merton, Robert C.</author>
+    <publisher>The RAND Corporation</publisher>
+    <link>http://kalx.net/papers/Mer1973.pdf</link>
+    <!-- 
+@article{Mer1973,
+     title = {Theory of Rational Option Pricing},
+     author = {Merton, Robert C.},
+     journal = {The Bell Journal of Economics and Management Science},
+     volume = {4},
+     number = {1},
+     pages = {141--183},
+     url = {http://www.jstor.org/stable/3003143},
+     ISSN = {00058556},
+     year = {1973},
+     publisher = {The RAND Corporation},
+     copyright = {Copyright  1973 The RAND Corporation},
+}    -->
+  </reference>
+  <reference name="Mer1977">
+    <title>On the Pricing of Contingent Claims and the Modigliani-Miller Theorem</title>
+    <author>Merton, Robert C.</author>
+    <publisher>The RAND Corporation</publisher>
+    <link>http://kalx.net/papers/Mer1977.pdf</link>
+    <!-- 
+    title = {On the Pricing of Contingent Claims and the Modigliani-Miller Theorem},
+    author = {Merton, Robert C.},
+    journal = {Journal of Financial Economics},
+    year = {1977},
+    volume = {5},
+    number = {3},
+    pages = {241--49},
+    -->
+  </reference>
+</bibliography>

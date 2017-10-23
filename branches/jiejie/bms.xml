@@ -1,0 +1,84 @@
+<developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <summary>
+    <para>
+      <codeInline>Black-Merton-Scholes</codeInline>
+    </para>
+  </summary>
+  <introduction>
+    <para>
+      Pricing, greeks, and implied volatility for calls and puts using the constant volatility
+      model of Black-Scholes/Merton.
+    </para>
+  </introduction>
+  <section>
+    <title>Overview</title>
+    <content>
+      <para>
+        In 1973 Fischer Black and Myron Scholes figured out how to price an option on a stock without
+        needing to know the growth rate of the stock. Their formula involves only the current
+        stock price, the volatility of the stock, the risk-free interest rate, and the strike and
+        expiration of the option contract.
+      </para>
+      <para>
+        Robert Merton came up with the first mathematically correct proof of the formula and he
+        and Scholes shared a Nobel Prize in 1997 for their work. Fischer Black passed away much too
+        early in 1995. 
+      </para>
+      <para>
+        They came up with a mathematical relationship between the change in the
+        option price and the change in the underlying stock price. That ratio is
+        called <newTerm>delta</newTerm> and is used to dynamically replicate the
+        option payoff using the underlying. The value of the option in their theory
+        is determined by the cost of setting up the initial dynamic hedge.
+      </para>
+      <para>
+        Traders don't take off their delta hedge and put on a new delta hedge
+        every time they rehedge to the new delta, 
+        they just adjust their existing position in the underlying to the new delta.
+        This is called <newTerm>gamma</newTerm>. Traders don't like it when
+        gamma is large because it means they are going to be very busy.
+      </para>
+      <para>
+        The Black-Merton-Scholes model assumes volatility is constant. It is not.
+        The sensitivity of the price to the volatility is called <newTerm>vega</newTerm>.
+      </para>
+      <para>
+        If the market is not moving, the value of an option tends to decrease over time.
+        This is called <newTerm>theta</newTerm>. In the BMS theory this is closely
+        related to gamma.
+      </para>
+    </content>
+    <sections>
+      <section>
+        <title>Introduction</title>
+        <content>
+          <para>
+            Paul Samuelson had already won his Nobel prize in 1970 and published work
+            that was very close to Black-Scholes and Merton, but he missed the key
+            point that it was unnecessary to estimate the drift component of the stock price
+            in order to value an option.
+            Merton waited until after Black and Scholes published to give a mathematically
+            correct proof of their theorem.
+            His first proof assumed bond prices had non zero quadratic variation. Nobody
+            goes for that these days. He didn't either by 1977 when he published the
+            the canonnical proof still used to this day.
+          </para>
+        </content>
+      </section>
+      <section>
+        <title>Details</title>
+        <content>
+          <para>
+          </para>
+        </content>
+      </section>
+    </sections>
+  </section>
+  <bibliography/>
+
+  <relatedTopics/>
+</developerConceptualDocument>
+

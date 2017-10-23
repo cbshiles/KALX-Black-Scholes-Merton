@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{571b3ebb-d0bd-4c31-8756-bee23e911903}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{526bf995-1ed3-4593-8dd2-4b1c03d1f720}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="array">
+      <UniqueIdentifier>{1af1fb11-4ed2-4fd8-b5de-5e9e53db2ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functional">
+      <UniqueIdentifier>{70348d1f-b682-4b82-afb0-8003132ac044}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bms.xml" />
+    <None Include="bibliography.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="black.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ooura.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\xllarray\array.h">
+      <Filter>array</Filter>
+    </ClInclude>
+    <ClInclude Include="..\xllarray\command.h">
+      <Filter>array</Filter>
+    </ClInclude>
+    <ClInclude Include="..\xllfunctional\functional.h">
+      <Filter>functional</Filter>
+    </ClInclude>
+    <ClInclude Include="normalexp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xllbms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\xllarray\array.cpp">
+      <Filter>array</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xllarray\index.cpp">
+      <Filter>array</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xllarray\empty.cpp">
+      <Filter>array</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xllarray\getset.cpp">
+      <Filter>array</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xllfunctional\functional.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xllfunctional\wrap.cpp">
+      <Filter>functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xllarray\sequence.cpp">
+      <Filter>array</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xllarray\interval.cpp">
+      <Filter>array</Filter>
+    </ClCompile>
+    <ClCompile Include="xllblack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xllnormalexp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xllbms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
